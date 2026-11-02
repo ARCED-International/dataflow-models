@@ -1,7 +1,13 @@
 # DataFlow models
 
-Model files that the DataFlow desktop app downloads when someone asks for them. Each is checked
+Model files that the [DataFlow](https://letdataflow.com) desktop app downloads when someone asks for them. Each is checked
 against the SHA-256 below before the app uses it, and runs only on the user's own computer.
+
+DataFlow checks field survey data while the team is still in the field: it pulls interviews from
+SurveyLoopr, SurveyCTO or ODK Central, runs data-quality checks on every sync, and gives one ranked list
+of problems to fix. These small models help it on the computer itself, with no AI service involved: one
+finds personal data in answers, and one suggests which existing option an "other, specify" answer means.
+[Download DataFlow](https://letdataflow.com/download) · [Security and privacy](https://letdataflow.com/security)
 
 ## Decider 0.8B, personal-data check (`decider-0.8b-v1`)
 
